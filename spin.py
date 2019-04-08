@@ -1,7 +1,7 @@
 spins = input("How many times did you spin? (Enter a negative number for counter-clockwise spins) ")
 
 #TODO - Edit the degrees calculation here!
-degrees = (float(spins) * 360) % 360
+degrees = (float(spins) * 360) % 360 # see WB notes below
 print("You are facing", degrees, "degrees relative to north")
 
 # when I input 0.25, I should get "90.0 degrees relative to north". WB: 90 / 360 = 0.25, which leaves a remainder of .25 of 360 = 90
